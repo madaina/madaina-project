@@ -1,0 +1,207 @@
+.container{
+    padding: 60px 101px 54px 101px;
+    background-image: url(../edu-assets/back.jpg);
+    background-size: cover;
+    font-family: 'Tiro Gurmukhi';
+    font-weight: 400;
+}
+
+/* Header */
+
+.header {
+    margin: 0 89px 77px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 28px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap:58px;
+}
+
+.nav-button {
+    cursor: pointer;
+    width: 56.7px;
+    border: none;
+    background:none;
+    outline: none;
+    transition: 100ms ease;
+}
+
+.nav-button:hover {
+    transform: scale(1.1);
+    transition-duration: 100ms;
+}
+
+/* Main */
+
+.main {
+    padding: 10px 59px 39px 59px;
+    background-color: #FFFFFF99;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    border-radius: 20px;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 2px #3A6C42;
+    border-radius: 15px;
+}
+
+.school-section{
+    font-size: 50px;
+    line-height: 62.5px;
+    gap: 10px;
+}
+.school-info{
+    margin-top:50px ;
+    display: flex;
+    flex-direction: column;
+    gap:68px;
+    text-align: center;
+}
+.school-name{
+    color: #365A3C;
+}
+.school-img{
+    position: relative;
+}
+.ktl{
+    max-width: 500px;
+    height: 100%;
+}
+
+.school-title{
+    position: absolute;
+    right: 130px;
+    max-width: 294px;
+    text-align: center;
+}
+
+.uni-section{
+    padding-top:61px;
+    border-color:#9DA957;
+    font-size: 50px;
+    line-height: 62.5px;
+}
+.uni-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+}
+.uni{
+    max-width: 650px;
+}
+
+.uni-name{
+    color:#1E1C52;
+    position: absolute;
+    top:0;
+    left:-100px;
+}
+
+.uni-years{
+    text-align: center;
+}
+
+.achievement-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+    line-height: 62.5px;
+}
+
+.achievement-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:128px;
+
+}
+.achievement-description{
+    color:#9DA957;
+    max-width: 460px;
+}
+
+.achievement-img{
+    display: flex;
+    flex-direction: row;
+}
+
+.academic-section{
+    padding:45px 20px 34px 20px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+.academic-top{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.academic-item{
+    align-self: center;
+    max-width: 310px;
+    font-size: 30px;
+    line-height: 37.5px;
+    padding:13px 30px 35px 30px;
+    border: solid 3px #3A6C42;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:30px;
+}
+
+.academic-title{
+    max-width: 290px;
+    font-size: 50px;
+    line-height: 62.5px;
+    color: #365A3C;
+}
+.academic-line{
+    max-width: 1060px;
+}
+ 
+
+.footer{
+    display: flex;
+    gap:41px;
+    justify-content: center;
+    margin-top: 54px;
+    align-items: center;
+}
+
+.footer-text{
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    align-self: center;
+}
+
+.footer-button{
+    transition: 100ms ease;
+}
+
+.footer-button:hover{
+    transform: scale(1.1);
+    transition-duration:100ms;
+}

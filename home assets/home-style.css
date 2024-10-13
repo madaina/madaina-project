@@ -1,0 +1,636 @@
+.container {
+    padding: 67px 105px 68px 105px;
+    background-image: url(back.jpg);
+    background-size: cover;
+    font-family: 'Twinkle Star';
+    font-weight: 400;
+}
+
+/* Header */
+
+.header {
+    margin: 0 82px 0 82px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 28px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap:58px;
+}
+
+.nav-button {
+    cursor: pointer;
+    width: 56.7px;
+    border: none;
+    background:none;
+    outline: none;
+    transition: 100ms ease;
+}
+
+.nav-button:hover {
+    transform: scale(1.1);
+    transition-duration: 100ms;
+}
+
+
+/* Body */ 
+
+.main {
+    margin-top: 25px;
+    padding: 40px 56px 56px 56px    ;
+    background-color: #FFFFFF99;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    border-radius: 20px;
+}
+
+.section-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 2px #FBA1EC;
+    border-radius: 15px;
+}
+
+/* About */
+
+.about-section {
+    padding: 39px 34px 0 20px;
+}
+
+.about-img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-name {
+    font-size: 40px;
+    line-height: 51.2px;
+    color:#9C5B92;
+}
+
+.about-arrow {
+    position: absolute;
+    top:76px;
+    left: 163px;
+}
+
+.about-details{
+    padding-top:20px;
+    text-align: center;
+}
+
+.about-description{
+    font-size: 50px;
+    line-height: 64px;
+    max-width: 702px;
+    color: #1E1E1E;
+    text-shadow: 3px 3px 3px #F5B9EC;
+}
+
+/*MBTI*/
+
+.mbti-section{
+    padding: 24px 35px 19px 33px;
+    gap:88px;
+}
+
+.mbti{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: center;
+}
+.mbti-img{
+    width: 274px;
+    align-self: center;
+}
+.mbti-title{
+    font-size: 40px;
+    line-height: 51.2px;
+    color:#F5B9EC;
+    text-shadow: 2px 0px #6E8FCF , -2px 0 #6E8FCF, 0 2px #6E8FCF, 0 -2px #6E8FCF,
+    1px 1px #6E8FCF, 1px -1px #6E8FCF, -1px 1px #6E8FCF, -1px -1px #6E8FCF,
+    2px 2px #6E8FCF, 2px -2px #6E8FCF, -2px 2px #6E8FCF, -2px -2px #6E8FCF,
+    1px 2px #6E8FCF, 1px -2px #6E8FCF, -2px 1px #6E8FCF, -2px -1px #6E8FCF,
+    2px 1px #6E8FCF, 2px -1px #6E8FCF, -1px 2px #6E8FCF, -1px -2px #6E8FCF;
+}
+
+.mbti-details{
+    font-size: 35px;
+    line-height: 44.8px;
+    color: #000000;
+}
+
+
+/* Hometown */
+
+.hometown-section{
+    position: relative;
+    padding: 25px 0 0 50px;
+    gap:113px;
+    align-items: center;
+}
+
+.hometown-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:47px;
+}
+
+.hometown-name{
+    font-size: 60px;
+    line-height: 76.8px;
+    color: #FFFFFF;
+    text-shadow: 2px 0px #6E8FCF , -2px 0 #6E8FCF, 0 2px #6E8FCF, 0 -2px #6E8FCF,
+    1px 1px #6E8FCF, 1px -1px #6E8FCF, -1px 1px #6E8FCF, -1px -1px #6E8FCF,
+    2px 2px #6E8FCF, 2px -2px #6E8FCF, -2px 2px #6E8FCF, -2px -2px #6E8FCF,
+    1px 2px #6E8FCF, 1px -2px #6E8FCF, -2px 1px #6E8FCF, -2px -1px #6E8FCF,
+    2px 1px #6E8FCF, 2px -1px #6E8FCF, -1px 2px #6E8FCF, -1px -2px #6E8FCF;
+}
+
+.hometown-details{
+    font-size:50px;
+    line-height: 64px;
+    color: #000000;
+}
+
+.hometown-arrow{
+    position: absolute;
+    right: 270px;
+    top:70px;
+}
+
+.baiterek{
+    width: 337px;
+}
+
+
+/* University */
+
+.uni-section{
+    display: flex;
+    flex-direction: row;
+    padding: 65px 0 16px 15px;
+}
+
+.uni-details{
+    font-size: 40px;
+    line-height: 51.2px;
+    color: #6E8FCF;
+    text-shadow: 2px 0px #FBA1EC, -2px 0 #FBA1EC, 0 2px #FBA1EC, 0 -2px #FBA1EC,
+    1px 1px #FBA1EC, 1px -1px #FBA1EC, -1px 1px #FBA1EC, -1px -1px #FBA1EC,
+    2px 2px #FBA1EC, 2px -2px #FBA1EC, -2px 2px #FBA1EC, -2px -2px #FBA1EC,
+    1px 2px #FBA1EC, 1px -2px #FBA1EC, -2px 1px #FBA1EC, -2px -1px #FBA1EC,
+    2px 1px #FBA1EC, 2px -1px #FBA1EC, -1px 2px #FBA1EC, -1px -2px #FBA1EC;
+    text-align: center;    
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    gap:41px;
+    justify-content: center;
+    margin-top: 54px;
+    align-items: center;
+}
+
+.footer-text{
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    align-self: center;
+}
+
+.footer-button{
+    transition: 100ms ease;
+}
+
+.footer-button:hover{
+    transform: scale(1.1);
+    transition-duration:100ms;
+}
+
+/* Adaptive */
+
+@media (max-width: 1400px) and (min-width: 1080px){
+    .container{
+        padding: 60px 75px 60px 75px;
+    }
+    
+    .header{
+        margin: 0 60px 0 60px;
+    }
+    
+    .logo{
+        height: 22px;
+    } 
+    .nav{
+        gap:50px;
+    }
+    
+    .nav-button{
+        width: 50px;
+    }  
+    
+    .main{
+        padding: 40px 56px 56px 56px    ;
+        gap: 35px;
+    }
+    
+    .about-section{
+        padding: 30px 34px 0 20px;
+    }
+
+    .about-name{
+        font-size: 35px;
+    }
+    
+    .about-description{
+        font-size: 35px;
+        line-height: 60px;
+    }
+    
+    .mbti-section{
+        padding: 20px 30px 15px 30px;
+        gap:80px;
+    }
+    
+    .mbti{
+        gap:20px;
+    }
+    
+    .mbti-img{
+        width: 200px;
+    }
+    .mbti-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .mbti-details{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    .hometown-section{
+        padding: 25px 0 0 50px;
+        gap:113px;
+    }
+    
+    .hometown-info{
+        gap:40px;
+    }
+    
+    .hometown-name{
+        font-size: 50px;
+        line-height: px;
+    }
+    
+    .hometown-details{
+        font-size:40px;
+        line-height: 60px;
+    }
+    
+    .hometown-arrow{
+        width: 150px;
+    }
+    
+    .baiterek{
+        width: 280px;
+    }
+
+    .uni-section{
+        padding: 40px 0 10px 10px;
+    }
+    
+    .uni-details{
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .uni-pic{
+        width: 400px;
+    }
+    
+    .footer{
+        gap:35px;
+        margin-top: 45px;
+    }
+    
+    .footer-text{
+        font-weight: 600;
+    }
+    
+    .footer-button{
+        height: 30px;
+    }
+}
+
+@media (max-width: 1080px) and (min-width: 650px){
+    .container{
+        padding: 30px 110px 30px 110px;
+    }
+    
+    .section-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-section{
+        display: flex;
+        flex-direction: row;
+    }
+    .header{
+        margin: 0 30px 0 30px;
+    }
+    
+    .logo{
+        height: 22px;
+    } 
+    .nav{
+        gap:5px;
+        justify-content: space-around;
+    }
+    
+    .nav-img{
+        width: 40px;
+    }  
+    
+    .main{
+        padding: 15px 30px 30px 30px    ;
+        gap: 15px;
+    }
+    
+    .about-section{
+        padding: 15px 10px 0 10px;
+    }
+
+    .about-name{
+        font-size: 30px;
+        text-align: center;
+    }
+    .about-arrow{
+        width: 100px;
+        left: 100px;
+    }
+    .about-img{
+        width: 200px;
+    }
+
+    .about-details{
+        gap: 20px;
+    }
+    
+    .about-description{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .about-doggie{
+        width: 150px;
+    }
+    
+    .mbti-section{
+        padding: 10px 15px 10px 15px;
+        gap:0;
+    }
+    
+    .mbti{
+        gap:10px;
+    }
+    
+    .mbti-img{
+        width: 200px;
+    }
+
+    .mbti-title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .mbti-details{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .hometown-section{
+        padding: 5px 10px 0 10px;
+        gap:20px;
+    }
+    
+    .hometown-info{
+        gap:10px;
+    }
+    
+    .hometown-name{
+        font-size: 30px;
+        line-height:30px;
+    }
+    
+    .hometown-details{
+        font-size:20px;
+        line-height: 25px;
+    }
+    
+    .hometown-arrow{
+        display: none;
+    }
+    
+    .baiterek{
+        width: 200px;
+    }
+
+    .uni-section{
+        padding: 10px 10px 0 10px;
+        align-items: center;
+    }
+    
+    .uni-details{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .uni-pic{
+        width: 300px;
+    }
+    
+    .footer{
+        gap:10px;
+        margin-top: 10px;
+    }
+    
+    .footer-text{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .footer-button{
+        height: 20px;
+    }
+}
+@media (max-width: 650px){
+    .container{
+        padding: 30px 110px 30px 110px;
+    }
+    
+    .section-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .header{
+        margin: 0 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+    }
+    
+    .logo{
+        height: 12px;
+    } 
+    .nav{
+        gap:5px;
+    }
+    
+    .nav-img{
+        width: 20px;
+    }  
+    .nav-button{
+        width: 30px;
+    }
+    
+    .main{
+        padding: 15px 30px 30px 30px    ;
+        gap: 15px;
+    }
+    
+    .about-section{
+        padding: 10px 10px 0 10px;
+        gap:10px;
+    }
+
+    .about-name{
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .about-arrow{
+        width: 50px;
+        top: 40px;
+        left: 80px;
+    }
+    .about-img{
+        width: 150px;
+    }
+
+    .about-details{
+        padding-top: 0;
+        gap: 20px;
+    }
+    
+    .about-description{
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .about-doggie{
+        width: 100px;
+    }
+    
+    .mbti-section{
+        padding: 10px 5px 10px 5px;
+        gap:0;
+    }
+    
+    .mbti{
+        gap:10px;
+    }
+    
+    .mbti-img{
+        width: 100px;
+    }
+
+    .mbti-title{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .mbti-details{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .hometown-section{
+        padding: 5px 10px 0 10px;
+        gap:10px;
+    }
+    
+    .hometown-info{
+        gap:10px;
+    }
+    
+    .hometown-name{
+        font-size: 15px;
+        line-height:20px;
+    }
+    
+    .hometown-details{
+        font-size:12px;
+        line-height: 15px;
+    }
+    
+    .hometown-arrow{
+        display: none;
+    }
+    
+    .baiterek{
+        width: 100px;
+    }
+
+    .uni-section{
+        padding: 10px 10px 0 10px;
+        align-items: center;
+    }
+    
+    .uni-details{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .uni-pic{
+        width: 150px;
+    }
+    
+    .footer{
+        gap:10px;
+        margin-top: 20px;
+    }
+    
+    .footer-text{
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .footer-button{
+        height: 15px;
+    }
+    .line{
+        width: 3px;
+    }
+}
